@@ -7,19 +7,19 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/card_view"
-    android:layout_margin="12dp"
+    android:layout_margin="10dp"
     card_view:cardBackgroundColor="#227C9D"
     card_view:cardCornerRadius="20dp"
-    card_view:cardElevation="6dp"
-    card_view:contentPadding="4dp"
+    card_view:cardElevation="4dp"
+    card_view:contentPadding="2dp"
     tools:context=".MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp">
+        android:padding="14dp">
         <ImageView
-            android:layout_width="100dp"
+            android:layout_width="60dp"
             android:layout_height="100dp"
             android:id="@id/item_image"
             android:layout_alignParentStart="true"
@@ -31,24 +31,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Prueba"
-            android:textColor="@color/purple_200"
+            android:textColor="@color/purple_500"
             android:id="@+id/item_title"
             android:textStyle="bold"
             android:layout_toEndOf="@+id/item_image"
             android:layout_toRightOf="@+id/item_image"
             android:layout_alignParentTop="true"
-            android:textSize="30sp" />
+            android:textSize="26sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Detalles"
-            android:textColor="@color/purple_200"
+            android:textColor="@color/white"
             android:id="@+id/item_detail"
             android:textStyle="bold"
             android:layout_toEndOf="@+id/item_image"
             android:layout_toRightOf="@+id/item_image"
-            android:layout_below="@+id/item_title" />
+            android:layout_below="@+id/item_title"
+            tools:ignore="HardcodedText" />
 
     </RelativeLayout>
 

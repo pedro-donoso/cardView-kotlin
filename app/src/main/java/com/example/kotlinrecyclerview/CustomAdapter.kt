@@ -10,24 +10,34 @@ import androidx.recyclerview.widget.RecyclerView
 class CustomAdapter: RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
 
     private val title = arrayOf(
-        "Chapter 1",
-        "Chapter 2",
-        "Chapter 3",
-        "Chapter 4"
+        "Capítulo 1",
+        "Capítulo 2",
+        "Capítulo 3",
+        "Capítulo 4",
+        "Capítulo 5",
+        "Capítulo 6",
+        "Capítulo 7",
     )
 
     private val details = arrayOf(
-        "Chapter 5",
-        "Chapter 6",
-        "Chapter 7",
-        "Chapter 8"
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
     )
 
     private val images = intArrayOf(
-        R.drawable.ic_launcher_foreground,
-        R.drawable.ic_launcher_foreground,
-        R.drawable.ic_launcher_foreground,
-        R.drawable.ic_launcher_foreground
+        R.drawable.book,
+        R.drawable.book,
+        R.drawable.book,
+        R.drawable.book,
+        R.drawable.book,
+        R.drawable.book,
+        R.drawable.book
+
     )
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): ViewHolder {
